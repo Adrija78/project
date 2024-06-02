@@ -1,0 +1,110 @@
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    margin:0;
+    padding: 0;
+    text-align:right; 
+  }
+  
+  header {
+    background-color: #9ce3ec;
+    padding: 30px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display:inline-block;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+  }
+  
+  h1 {
+    font-size: 32px;
+    margin-top: 0;
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  #introSection {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 50px 0;
+    background-image: url(iamhungry.jpeg);
+    background-position: bottom;
+  }
+  
+  .button {
+    display: inline-block;
+    background-color: #d4cd09;
+    padding: 9px 90px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+  
+  /* #statsSection {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 90px 0;
+    background-image: url(givingrice.jpeg);
+  } */
+  
+  #statsSection .stat {
+    display: inline-block;
+    width: 30%;
+    padding: 0 10px;
+    border-right: 1px solid #cccccc;
+  }
+  
+  #statsSection .stat:last-child {
+    border-right: none;
+  }
+  
+  #howItWorksSection {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  #howItWorksSection h2 {
+    margin-bottom: 30px;
+    background-image: url(foodblur.png);
+  }
+  
+  .steps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .steps .step {
+    max-width: 250px;
+    text-align: center;
+    margin: 0 20px;
+  }
+  
+  .steps img {
+    width: 100%;
+    max-height: 200px;
+  }
+  
+  footer {
+    background-color: #977575;
+    padding: 20px 0;
+    text-align: center;
+  }
